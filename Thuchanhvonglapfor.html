@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Thực Hành Vòng Lặp for</title>
+</head>
+<body>
+<h2>JavaScript Loops</h2>
+<p id="demo"></p>
+<script>
+    /*var i;
+    for(i=0;i<=5;i++){
+        document.write("The number is "+i+"<br/>");
+    }*/
+    let text = "aaaa"; //Nếu thêm abc thì chỉ hiện 1 lần.
+    let i;
+    for (i = 0; i < 5; i++) {
+        text += "The number is " + i + "<br>";//Nếu thêm += thì hiện đủ 1 2 3 4 .
+    }
+    document.getElementById("demo").innerHTML = text;
+</script>
+</body>
+</html>
